@@ -1,0 +1,54 @@
+.main-container {
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+}
+
+.users-table {
+    /* width: 500px; */
+    margin: auto;
+}
+th:hover {
+    cursor: pointer;
+}
+th,
+td {
+    border: 1px solid white;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    width: 170px;
+}
+
+.disabled {
+    cursor: no-drop;
+}
+
+.fitler-input {
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.fitler-input input {
+    padding-left: 15px;
+    height: 30px;
+    border: 2px solid #19aaff;
+    width: 200px;
+}
+
+button {
+    width: 130px;
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.pagination {
+    margin: auto;
+    margin-top: 72px;
+}
